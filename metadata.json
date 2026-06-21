@@ -1,0 +1,6 @@
+{
+  "name": "View Pizza Doha",
+  "description": "Premium Pizza Restaurant in Doha, Qatar. Savor 12-hour smoked brisket melt, midnight truffle, and serroni royal slices with hot honey.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

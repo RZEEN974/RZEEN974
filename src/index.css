@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Cairo", system-ui, -apple-system, sans-serif;
+  --font-display: "Space Grotesk", "Cairo", system-ui, -apple-system, sans-serif;
+  
+  --color-brand-red: #E31B22;
+  --color-brand-red-hover: #C11319;
+  --color-brand-yellow: #FFD700;
+  --color-brand-yellow-hover: #E6C200;
+  --color-brand-black: #0B0B0C;
+  --color-brand-gray: #1E1E20;
+}
+
+@layer base {
+  body {
+    background-color: #0B0B0C;
+    color: #F3F4F6;
+    font-family: var(--font-sans);
+  }
+}
